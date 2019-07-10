@@ -1,0 +1,40 @@
+footer{
+    .direction{
+        background: black;
+        padding: 30px 0;
+        color: #FFF;
+        .title{
+            font-size: 30px;
+            line-height: 30px;
+            font-weight: 300;
+            margin-bottom: 30px;
+        }
+        .street, .email, .phone{
+            margin-bottom: 10px;
+        }
+        .logo{
+            margin-top: 70px;
+        }
+    }
+
+    .social{
+        background: linear-gradient(0deg, rgba(138,0,0,1) 16%, rgba(0,6,79,1) 63%, rgba(0,0,0,1) 100%);
+        
+        .icons{
+            width: 100%;
+            display: inline-block;
+            display: flex;
+            justify-content: space-around;
+            
+            a{
+                width: 100px;
+                font-size: 60px;
+                padding: 10px;
+                display: inline-block;
+                margin: 0 20px;
+                color: #FFF; 
+            }
+        }
+    }
+    
+}

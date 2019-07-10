@@ -1,0 +1,57 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #EDEFF2;
+    color: #FFF;
+}
+
+p{
+    margin-bottom: 0;
+}
+
+.row
+{
+    margin-bottom: 20px;
+}
+
+header{
+    background: rgb(76, 103, 179);
+    margin-top: 20px;
+    padding: 20px;
+}
+
+main article{
+    color: rgb(39, 39, 39);
+    background: #FFF;
+    padding: 20px;
+}
+main article p{
+    margin-bottom: 20px;
+}
+
+
+
+main aside{
+    width: 100%;
+    margin: 0;
+    padding: 40px;
+    background: rgb(71, 139, 99);
+    text-align: center;
+}
+
+.widgets .widget{
+    background: #162502;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+footer
+{
+    background: rgba(122, 19, 136, 0.685);
+    text-align: center;
+    padding: 20px 0;
+}

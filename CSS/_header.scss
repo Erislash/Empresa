@@ -1,0 +1,68 @@
+header{
+    background: url(../IMG/bg.png), #000;
+    background-size: cover;
+    background-position: center 0;
+    background-repeat: no-repeat;
+
+    .containerLogoMenu{
+        padding: 25px 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.555);
+
+        .logo a{
+            display: block;
+            img{
+                vertical-align: top;
+            }
+        }
+        .menu{
+            line-height: 50px;
+            text-align: right;
+            a{
+                color: #FFF;
+                margin-left: 60px;
+                font-size: 18px;
+            }
+        }
+    }
+
+    .texts{
+        display: inline-block;
+        color: #FFF;
+        text-align: center;
+        margin: 200px 0;
+        .firstLine, .secondLine{
+            font-family: 'Open Sans', arial, sans-serif;
+            font-weight: 300;
+        }
+
+        .firstLine{
+            font-size: 35px;
+            line-height: 35px;
+            margin-bottom: 30px;
+        }
+        .secondLine{
+            font-size: 25px;
+            line-height: 25px;
+            margin-bottom: 80px;
+        }
+        .btnContainer{
+            a{
+                text-decoration: none;
+                border-radius: 4px;
+                border: 2px solid rgb(0, 0, 0);
+                font-weight: 600;
+                padding: 12px 15px;
+                width: 250px;
+                display: inline-block;
+                text-align: center;
+                margin: 0 10px;
+
+                &:hover{
+                    border: 2px solid rgb(255, 0, 0);
+                    color: #000;
+                    background:rgba(95, 9, 9, 0.692);
+                }
+            }
+        }
+    }
+}
